@@ -18,7 +18,11 @@
     <!-- Force software navigation bar -->
     <bool name="config_showNavigationBar">true</bool>
 
+    <bool name="config_showMenuShortcutsWhenKeyboardPresent">true</bool>
+
     <bool name="config_forceDefaultOrientation">true</bool>
+
+    <bool name="config_reverseDefaultRotation">true</bool>
 
     <!-- An Array of "[Connection name],[ConnectivityManager.TYPE_xxxx],
          [associated radio-type],[priority],[restoral-timer(ms)],[dependencyMet]  -->
