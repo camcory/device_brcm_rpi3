@@ -37,6 +37,9 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/brcm/rpi3/bluetooth
 BOARD_CUSTOM_BT_CONFIG := device/brcm/rpi3/bluetooth/vnd_rpi3.txt
 
+# Memory
+MALLOC_SVELTE := true
+
 USE_CAMERA_STUB := true
 
 BOARD_SEPOLICY_DIRS := \
