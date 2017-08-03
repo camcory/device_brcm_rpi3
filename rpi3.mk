@@ -1,5 +1,6 @@
 USE_OEM_TV_APP := true
 $(call inherit-product, device/google/atv/products/atv_base.mk)
+$(call inherit-product-if-exists, vendor/brcm/rpi3/rpi3-vendor.mk)
 
 PRODUCT_NAME := rpi3
 PRODUCT_DEVICE := rpi3
